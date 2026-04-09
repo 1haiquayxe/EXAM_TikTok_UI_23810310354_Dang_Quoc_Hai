@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 📱 Bài kiểm tra ngày 09/04/2026
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 👤 Thông tin sinh viên
+- Họ và tên: Dặng Quốc Hải
+- MSSV: 23810310354
+- Môn học: Lập trình trên thiết bị di động
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Nội dung bài thực hành
+ Hoàn thiện layout các màn hình: https://prnt.sc/wcNjWIgrp8ZV
+TikTok Home (Following)
+TikTok Home (For You)
+TikTok Comments
+- Sử dụng 
 
-   ```bash
-   npm install
-   ```
+Top Tabs Navigator để di chuyển giữa 2 màn hình TikTok Home (Following) <-> TikTok Home (For You)
+- Sử dụng Bottom Tabs Navigator để di chuyển qua màn hình TikTok Comments (khi người dùng click vào icon comment trên Bottom Menu
+## 🚀 Hướng dẫn chạy project
+Để chạy được project này trên máy tính, bạn cần thực hiện các bước sau:
 
-2. Start the app
+1. Yêu cầu hệ thống
+Đã cài đặt Node.js (phiên bản LTS).
 
-   ```bash
-   npx expo start
-   ```
+Đã cài đặt Git.
 
-In the output, you'll find options to open the app in a
+2. Cài đặt thư viện
+Mở terminal tại thư mục gốc của project và chạy lệnh:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Bash
+npm install
+(Hoặc yarn install nếu bạn dùng Yarn)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+3. Chạy project
+Sau khi cài đặt xong, khởi động server Expo:
 
-## Get a fresh project
+Bash
+npx expo start
+4. Xem kết quả
+Trên Web: Nhấn phím w sau khi chạy lệnh start.
 
-When you're ready, run:
+Trên Điện thoại: - Cài ứng dụng Expo Go (trên App Store hoặc CH Play).
 
-```bash
-npm run reset-project
-```
+Dùng camera điện thoại quét mã QR hiện ra trên terminal (Lưu ý: Điện thoại và máy tính phải dùng chung một mạng Wi-Fi).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📷 Kết quả chạy chương trình
 
-## Learn more
+![Screenshot](anh1.png)
+![Screenshot](anh2.png)
+![Screenshot](anh3.png)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
